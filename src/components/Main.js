@@ -29,7 +29,6 @@ export default class Main extends Component {
         novaTarefa: '',
       });
     } else {
-      const novasTarefas = [...tarefas];
       novasTarefas[index] = novaTarefa;
 
       this.setState({
